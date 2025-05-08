@@ -20,6 +20,10 @@ Casino::Casino() {
     juegosDisponibles.push_back(slots);
 }
 
+auto* parImpar = new ParImpar();
+juegosDisponibles.push_back(parImpar);
+
+
 void Casino::agregarJugador() {
     string nombreJugador;
     float dineroPesos;
