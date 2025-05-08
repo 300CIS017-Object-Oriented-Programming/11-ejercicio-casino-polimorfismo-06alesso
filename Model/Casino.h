@@ -4,6 +4,8 @@
 
 #ifndef CASINO_CASINO_H
 #define CASINO_CASINO_H
+#include "ParImpar.h"
+
 
 #include <iostream>
 #include <string>

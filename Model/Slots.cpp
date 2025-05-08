@@ -15,6 +15,14 @@ float Slots::jugar(float gonzosApostar) {
     gonzosResultado = calcularResultado(gonzosApostar);
     return gonzosResultado;
 }
+void Slots::mostrarReglas() {
+    cout << "Reglas de Slots:\n";
+    cout << "- Se generan tres números entre 1 y 7.\n";
+    cout << "- Si los tres números son iguales, ganas el doble.\n";
+    cout << "- Si sacas 7-7-7, ganas 7 veces lo apostado.\n";
+    cout << "- Si haces una escalera (ej: 5-6-7), ganas la mitad.\n";
+    cout << "- De lo contrario, pierdes tu apuesta.\n";
+}
 
 
 float Slots::calcularResultado(float gonzosApostar) {
